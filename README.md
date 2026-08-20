@@ -246,6 +246,12 @@ The significant variation in inventory receipts and net revenue across months su
 - DENSE_RANK
 - PARTITION BY
 
+## Conclusion
+
+The analysis shows that the business is profitable, but there are several opportunities to improve financial and operational performance.
+The major areas requiring attention are transportation costs, damaged inventory, loss-making products, underperforming suppliers, and warehouses that handle large inventory volumes without generating proportionate revenue.
+By focusing on these areas, management can reduce avoidable costs, improve inventory efficiency, strengthen supplier performance, and increase overall profitability.
+
 ---
 
 ## Project Structure
