@@ -61,22 +61,49 @@ Management wants to understand:
 
 ---
 
-## Key Performance Indicators
+## SQL Analysis
 
-The analysis calculated the following business KPIs:
+The analysis was divided into four main areas:
 
-- Total Inventory Received
-- Total Damaged Products
-- Damage Rate
-- Net Units Received
-- Total Transportation Cost
-- Total Inventory Cost
-- Potential Revenue
-- Net Revenue
-- Revenue Lost Due to Damaged Products
-- Gross Profit
-- Net Profit
-- Profit Margin
+### 1. Business KPIs
+
+The business KPI analysis measures overall supply chain performance, including:
+
+- Total inventory received
+- Total damaged products
+- Damage rate
+- Transportation cost
+- Net units received
+- Total inventory cost
+- Potential revenue
+- Net revenue
+- Revenue lost due to damaged products
+- Gross profit
+- Net profit
+- Profit margin
+
+[View Business KPI SQL](sql/01_business_kpis.sql)
+
+
+### 2. Product Analysis
+
+Analysis of product profitability, loss-making products, category performance and product damage rates.
+
+[View Product Analysis SQL](sql/02_product_analysis.sql)
+
+
+### 3. Supplier Analysis
+
+Analysis of supplier profitability, loss-making suppliers, supplier performance and transportation costs.
+
+[View Supplier Analysis SQL](sql/03_supplier_analysis.sql)
+
+
+### 4. Warehouse & Shipment Analysis
+
+Analysis of inventory volumes, warehouse performance and shipment trends over time.
+
+[View Warehouse & Shipment SQL](sql/04_warehouse_analysis.sql)
 
 ---
 
