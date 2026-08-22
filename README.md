@@ -16,6 +16,35 @@ Although the business receives large volumes of inventory, not all products are 
 
 The key challenge is to understand which suppliers, products, categories, and warehouses are contributing the most value to the business and where operational inefficiencies are affecting profitability.
 
+
+## Database Schema
+
+The project uses a relational supply chain database consisting of three main tables:
+
+### Suppliers
+
+Contains information about the suppliers, including supplier name, country, rating, and lead time.
+
+### Products
+
+Contains product-level information including product name, category, supplier, unit cost, and selling price.
+
+### Shipments
+
+Contains shipment-level information including shipment date, warehouse, quantity received, quantity damaged, and transportation cost.
+
+### Relationships
+
+The tables are connected through primary and foreign keys:
+
+SUPPLIERS → PRODUCTS → SHIPMENTS
+
+Each product is associated with a supplier through `SUPPLIER_ID`, while each shipment is associated with a product through `PRODUCT_ID`.
+
+The database schema can be found in:
+
+`schema/create_tables.sql`
+
 ---
 
 ## Business Objectives
