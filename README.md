@@ -43,7 +43,7 @@ Each product is associated with a supplier through `SUPPLIER_ID`, while each shi
 
 The database schema can be found in:
 
-`schema/create_tables.sql`
+[Create Database Tables](schema/create_tables.sql)
 
 ---
 
