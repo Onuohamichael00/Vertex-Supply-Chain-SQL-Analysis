@@ -304,9 +304,11 @@ The significant variation in inventory receipts and net revenue across months su
 
 ## Conclusion
 
-The analysis shows that the business is profitable, but there are several opportunities to improve financial and operational performance.
-The major areas requiring attention are transportation costs, damaged inventory, loss-making products, underperforming suppliers, and warehouses that handle large inventory volumes without generating proportionate revenue.
-By focusing on these areas, management can reduce avoidable costs, improve inventory efficiency, strengthen supplier performance, and increase overall profitability.
+The analysis shows that the business is profitable, generating approximately 4.5 million in net profit with an overall profit margin of 30.48%. However, the analysis also identified several opportunities to improve financial and operational performance.
+
+Transportation costs, damaged inventory, loss-making products, underperforming suppliers, and differences in warehouse performance are the key areas requiring management attention.
+
+Addressing these issues through improved transportation planning, stronger supplier management, better inventory controls, and product-level profitability analysis could help reduce avoidable costs and improve overall profitability.
 
 ---
 
@@ -316,6 +318,15 @@ By focusing on these areas, management can reduce avoidable costs, improve inven
 Vertex-Supply-Chain-Analysis/
 │
 ├── README.md
+│
+├── data/
+│   ├── shipments.csv
+│   ├── productskl.csv
+│   └── suppliers.csv
+│
+├── schema/
+│   ├── create_tables.sql
+│   └── load_data.sql
 │
 └── sql/
     ├── 01_business_kpis.sql
